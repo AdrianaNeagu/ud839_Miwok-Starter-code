@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
+        
         TextView family = (TextView) findViewById(R.id.family);
         family.setOnClickListener(new View.OnClickListener() {
             @Override
