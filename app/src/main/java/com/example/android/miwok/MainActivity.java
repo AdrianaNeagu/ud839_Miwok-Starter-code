@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         TextView numbers = (TextView) findViewById(R.id.numbers);
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-        
+
         TextView family = (TextView) findViewById(R.id.family);
         family.setOnClickListener(new View.OnClickListener() {
             @Override
